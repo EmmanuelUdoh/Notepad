@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "DappToDo_backend": {
+      "main": "src/DappToDo_backend/main.mo",
+      "type": "motoko"
+    },
+    "DappToDo_frontend": {
+      "dependencies": [
+        "DappToDo_backend"
+      ],
+      "source": [
+        "src/DappToDo_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "DappToDo_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
