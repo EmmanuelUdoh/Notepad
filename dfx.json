@@ -1,13 +1,6 @@
 {
   "canisters": {
-    "DappToDo_backend": {
-      "main": "src/DappToDo_backend/main.mo",
-      "type": "motoko"
-    },
     "DappToDo_frontend": {
-      "dependencies": [
-        "DappToDo_backend"
-      ],
       "source": [
         "src/DappToDo_frontend/dist"
       ],
